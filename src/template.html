@@ -6,11 +6,11 @@
 	<meta name='theme-color' content='#333333'>
 
 	%sapper.base%
-
+<link rel="stylesheet" href="index.css" />
 	<link rel='stylesheet' href='global.css'>
 	<link rel='manifest' href='manifest.json'>
 	<link rel='icon' type='image/png' href='favicon.png'>
-
+<link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
 	<!-- Sapper generates a <style> tag containing critical CSS
 	     for the current page. CSS for the rest of the app is
 	     lazily loaded when it precaches secondary pages -->
@@ -20,7 +20,7 @@
 	     the current page has one -->
 	%sapper.head%
 </head>
-<body>
+<body class="antialiased bg-white font-sans text-gray-900">
 	<!-- The application will be rendered inside this element,
 	     because `app/client.js` references it -->
 	<div id='sapper'>%sapper.html%</div>
