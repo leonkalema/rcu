@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "engines": {
     "node": "12.13.0"
-  }
+  },
   "scripts": {
     "dev": "sapper dev",
     "watch:tailwind": "postcss static/tailwind.css -o static/index.css -w",
