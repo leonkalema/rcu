@@ -2,9 +2,6 @@
 import { onMount } from 'svelte';
 import DonationWidget from './DonationWidget.svelte';
 
-onMount( () => {
-
-});
 
 </script>
 
