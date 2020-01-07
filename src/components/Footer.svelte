@@ -5,7 +5,7 @@
 <style>
 </style>
 
-<footer class="lg:px-16 px-8 bg-black py-10 pb-15 shadow-md">
+<footer class="lg:px-16 px-8 bg-black py-10 pb-15 shadow-md inset-x-0.bottom-0">
 
         <div class="container mx-auto flex flex-wrap">
             <div class="w-full md:w-3/6">
