@@ -56,11 +56,7 @@
                                         href="">Testing Link Three, Nice!</a></li>
                             </ul>
                         </li>
-                        <li>
-                            <a href="" class="md:ml-4 flex items-center justify-start pointer-cursor">
-                                <img class="rounded-full w-6 h-6 bg-green-800" src="https://unavatar.now.sh/dalton@sutton.io">
-                            </a>
-                        </li>
+                      
                     </ul>
                 </nav>
             </div>

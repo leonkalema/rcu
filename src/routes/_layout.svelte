@@ -9,9 +9,9 @@
 
 </style>
 
-<Nav {segment}/>
+<Nav {segment} class="flex-wrap"/>
 
-<main >
+<main class='flex-1 mx-auto' >
 	<slot></slot>
 </main>
-<Footer />
+<Footer class="absolute inset-x-0 bottom-0" />

@@ -1,15 +1,20 @@
 <script>
 import { onMount } from 'svelte';
-import DonationWidget from './DonationWidget.svelte';
+import Images from './Images.svelte';
 
 
 </script>
+
+<style>
+
+</style>
 
 <section class="section--contact h-full">
            <div class="flex flex-wrap h-full">
                <div class="contact--item-map bg-center bg-cover w-full hidden lg:block lg:w-1/2 h-full" >
 
-No More Donations
+<Images />
+
 
                </div>
                <div class="w-full lg:w-1/2 bg-white min-h-full py-12 px-8 sm:px-40">
