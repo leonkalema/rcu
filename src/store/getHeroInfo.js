@@ -8,17 +8,27 @@ let images = [];
 export const heroStore= readable(headers, set => {
   axios
     .get(
-      `${API_BASE_URL}/spaces/${API_SPACE_ID}/entries?access_token=${API_TOKEN}&content_type=heroSection&locale=en-US&include=10`
+      `${API_BASE_URL}/spaces/${API_SPACE_ID}/entries?access_token=${API_TOKEN}&content_type=heroSection`
     )
     .then(function(response) {
-      let headers = response.data.items;
+      let milles = response.data.items;
+      let images = response.data.includes.Asset;
 
-      let arr3 = headers.map((item, i) => Object.assign({}, item, images[i]));
+const kalema = images.map(image => {
+  return image.fields;
+});
 
-      console.log( arr3);
+
+const leon = milles.map(header =>{
+  return header.fields;
+});
 
 
-      set(headers, images);
+let headers = kalema.map((item, i) => Object.assign({}, item, leon[i]));
+
+console.log("Leon Kalema Rocks", headers);
+
+      set(headers);
     })
     .catch(function(error) {
       console.log(error);

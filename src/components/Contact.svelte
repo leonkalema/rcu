@@ -13,7 +13,7 @@ import Images from './Images.svelte';
            <div class="flex flex-wrap h-full">
                <div class="contact--item-map bg-center bg-cover w-full hidden lg:block lg:w-1/2 h-full" >
 
-<Images />
+<p>this is the dination widget </p>
 
 
                </div>
