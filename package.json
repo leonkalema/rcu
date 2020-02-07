@@ -20,6 +20,7 @@
     "last 3 version"
   ],
   "dependencies": {
+    "@moltin/sdk": "^3.23.0",
     "axios": "^0.19.1",
     "compression": "^1.7.1",
     "mapbox-gl": "^1.6.1",
@@ -47,7 +48,7 @@
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-svelte": "^5.0.1",
-    "rollup-plugin-terser": "^4.0.4",
+    "rollup-plugin-terser": "^5.2.0",
     "sapper": "^0.27.0",
     "svelte": "^3.0.0",
     "svelte-preprocess": "^2.9.0",

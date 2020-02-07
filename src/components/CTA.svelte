@@ -1,4 +1,14 @@
 <script>
+import { gateway as MoltinGateway } from '@moltin/sdk';
+
+const Moltin = MoltinGateway({
+  client_id: 'XXX',
+  client_secret: 'XXX'
+});
+
+Moltin.Authenticate().then(response => {
+  console.log('authenticated', response)
+})
 </script>
 
 <style>
@@ -9,7 +19,7 @@
 </style>
 
 
-<section style="background-color: #ffca00">
+<section class="bg-rcu-yellow">
   <div class="container mx-auto px-6 text-center py-20">
     <h2 class="mb-6 text-4xl font-bold text-center text-white tracking-wider">
       Ways to Get Involved
