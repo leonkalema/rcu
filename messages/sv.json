@@ -1,0 +1,42 @@
+{
+	"title": {
+		"text": "Relief Care Uganda"
+	},
+	"nav":{
+		"about": "Handla om",
+		"project": "Projekt",
+		"get": "Bli involverad",
+		"contact": "Kontakta oss",
+		"dropdown": "Falla ner"
+	},
+	"banner": {
+	    "head": "Vi tror att hålla barn i skolan hjälper en nation att frodas!",
+	    "subtitle": "Vi arbetar tillsammans med utsatta barn och ungdomar som drabbas av sociala, kulturella och ekonomiska skillnader och deras åldrande vårdare (äldre personer över 55 år) för oss, ett barn är en unik gåva till mänskligheten som är fullt utrustad med förmågor; som måste skyddas, ges och ges en chans att konstruktivt delta i utvecklingen av deras samhälle.",
+	    "ways": "Sätt att bli involverade",
+	    "ways_sub": "Det finns flera sätt att gå med, stödja oss och vara mer involverade.",
+	    "action": "Bli involverad",
+	    "believe": "Vi tror att hålla barn i skolan hjälper en nation att frodas!",
+	    "believe_sub": "Relief Care Uganda har fortsatt att samarbeta med andra organisationer, CSO: er och statliga enheter när det genomför sina samhällsaktiviteter. Under Relief Care Uganda-Education Project (RCU-EP) och i slutet av året 2016 registrerade vi 53 föräldralösa och utsatta barn, varav 30 är föräldralösa och i förskolan, 20 är ensamma föräldralösa och på grundnivå och 3 har föräldrar men mycket fattiga att stödja barnen, dessa är också på sekundär nivå"
+	},
+	"services": {
+			"agriculture": "Lantbruk",
+			"healthcare": "Sjukvård",
+			"education": "Utbildning",
+			"agriculture_sub": "Uganda är känt för sina betydande jordbruksresurser, som också är en av dess största export. Relief Care Uganda odlar för närvarande ett tunnland mark med mer än hundratals kassava- och bananväxter.",
+			"healthcare_sub": "Hjälpomsorg Uganda ger medicinsk hjälp och ett fullständigt apotek i samhällena. Vårt långsiktiga mål är att öppna fler kliniker inom kritiska områden som saknar medicinska anläggningar. Våra nuvarande anläggningar består av ett laboratorium, ett apotek och undersökning",
+			"education_sub": "Alla skolor som stöds av Relief Care Uganda är privata och följer Ugandas officiella läroplan. Vi erbjuder utbildning för grundskoleelever från första till fjärde klass"
+	},
+	"fact": {
+		"title": "Vad vi gör",
+		"sub": "Relief Care Uganda har fortsatt att samarbeta med andra organisationer, CSO: er och statliga enheter när det genomför sina samhällsaktiviteter. Under Relief Care Uganda-Education Project (RCU-EP) och i slutet av året 2016 registrerade vi 53 föräldralösa och utsatta barn, varav 30 är föräldralösa och i förskolan, 20 är ensamma föräldralösa och på grundnivå och 3 har föräldrar men mycket fattiga att stödja barnen, dessa är också på sekundär nivå",
+		"button": "Om Oss"
+	},
+	"cta":{
+		"title": " Ways to Get Involved",
+		"sub": "There are several ways to join us, support us and be more involved.",
+	},
+	"footer":{
+		"sub": "Ett samhälle där utsatta samhällen lever till sin fulla potential och vi strävar efter ett förvandlat samhälle där lika rättigheter och möjligheter avanceras till utsatta samhällen som vårt uppdrag"
+	}
+
+}

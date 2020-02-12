@@ -1,3 +1,11 @@
+<script context="module">
+  import { isLoading, waitLocale } from 'svelte-i18n'
+
+  export async function preload() {
+    return waitLocale()
+  }
+</script>
+
 <script>
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
@@ -8,6 +16,10 @@
 <style>
 
 </style>
+
+{#if $isLoading}
+  <div class="loading">Loading...</div>
+{/if}
 
 <Nav {segment} class="flex-wrap"/>
 

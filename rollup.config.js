@@ -10,6 +10,7 @@ import getPreprocessor from "svelte-preprocess";
 import postcss from "rollup-plugin-postcss";
 import PurgeSvelte from "purgecss-from-svelte";
 import path from "path";
+import json from "rollup-plugin-json";
 const mode = process.env.NODE_ENV;
 const dev = mode === "development";
 const legacy = !!process.env.SAPPER_LEGACY_BUILD;
@@ -75,7 +76,10 @@ export default {
         dedupe
       }),
       commonjs(),
-
+      json({
+        namedExports: false,
+        compact: !dev,
+      }),
       legacy &&
         babel({
           extensions: [".js", ".mjs", ".html", ".svelte"],
@@ -125,6 +129,10 @@ export default {
         dedupe
       }),
       commonjs(),
+      json({
+        namedExports: false,
+        compact: !dev,
+      }),
       postcss({
         plugins: postcssPlugins(!dev),
         extract: path.resolve(__dirname, "./static/global.css")

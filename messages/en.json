@@ -1,0 +1,42 @@
+{
+	"title": {
+		"text": "Relief Care Uganda"
+	},
+	"nav":{
+		"about": "About",
+		"project": "Projects",
+		"get": "Get Involved",
+		"contact": "Contatct Us",
+		"dropdown": "Dropdown"
+	},
+	"banner": {
+		"head": "We believe keeping children in school helps a nation thrive!",
+		"subtitle": "We work alongside vulnerable children and young people affected by social, cultural and economic disparities and their aging carers (older persons 55 years and above) to us, a child is a unique gift to humanity fully endowed with abilities; that need to be protected, provided for, and given a chance to constructively participate in the development of their society.",
+		"ways": "Ways to Get Involved",
+		"ways_sub": "There are several ways to join us, support us and be more involved.",
+		"action": "Get Involved",
+		"believe": "We believe keeping children in school helps a nation thrive!",
+		"believe_sub": "Relief Care Uganda has continued collaborating with other organizations, CSOs and government entities as it executes its community activities. Under the Relief Care Uganda-Education Project (RCU-EP) and by close of year 2016, we registered 53 orphaned and vulnerable children of which 30 are double orphaned and in Pre primary school, 20 are single orphaned and are in primary level and 3 have parents but very poor to support the children, these are also on secondary level"
+	},
+	"services": {
+		"agriculture": "Agriculture",
+		"healthcare": "Healthcare",
+		"education": "Education",
+		"agriculture_sub": "Uganda is known for its considerable agricultural resources, which is also one of its main exports. Relief Care Uganda currently cultivates an acre of land with more than hundreds of cassava and banana plants.",
+		"healthcare_sub": "Relief Care Uganda provides medical help and a full stock pharmacy in the communities. Our long-term goal is to open up more clinics in critical areas lacking medical facilities. Our current facilities consist of a laboratory, a pharmacy and examination",
+		"education_sub": "All schools supported by Relief Care Uganda are private and adhere to the official curriculum of Uganda. We provide education for primary school pupils from first through fourth grade.",
+	},
+	"fact": {
+		"title": "What we do",
+		"sub": "Relief Care Uganda has continued collaborating with other organizations, CSOs and government entities as it executes its community activities. Under the Relief Care Uganda-Education Project (RCU-EP) and by close of year 2016, we registered 53 orphaned and vulnerable children of which 30 are double orphaned and in Pre primary school, 20 are single orphaned and are in primary level and 3 have parents but very poor to support the children, these are also on secondary level",
+		"button": "About US"
+	},
+	"cta":{
+		"title": " Ways to Get Involved",
+		"sub": "There are several ways to join us, support us and be more involved.",
+	},
+	"footer":{
+		"sub": "A society where vulnerable communities live to their full potential and we strive for a transformed society where equal rights and opportunities are advanced to vulnerable communities as our mission"
+	}
+
+}

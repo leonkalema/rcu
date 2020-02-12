@@ -5,6 +5,8 @@ import Contact from '../components/Contact.svelte';
 import Fact from '../components/Fact.svelte';
 import Byline from '../components/Byline.svelte';
 import Projects from '../components/Projects.svelte';
+
+import { _ } from 'svelte-i18n'
 </script>
 
 <style>
@@ -12,7 +14,7 @@ import Projects from '../components/Projects.svelte';
 </style>
 
 <svelte:head>
-	<title>Relief Care Uganda</title>
+	<title>{$_('title.text')}</title>
 </svelte:head>
 
 <Hero />
