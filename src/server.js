@@ -3,7 +3,7 @@ import polka from 'polka';
 import compression from 'compression';
 import * as sapper from '@sapper/server';
 
-import './i18n.js'
+//import './i18n.js'
 
 import './tailwind.css'
 

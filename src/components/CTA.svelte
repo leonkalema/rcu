@@ -1,35 +1,24 @@
 <script>
-  import { _ } from 'svelte-i18n'
-import { gateway as MoltinGateway } from '@moltin/sdk';
-
-const Moltin = MoltinGateway({
-  client_id: 'XXX',
-  client_secret: 'XXX'
-});
-
-Moltin.Authenticate().then(response => {
-  console.log('authenticated', response)
-})
+  import { _ } from "svelte-i18n";
 </script>
 
 <style>
-.bg-blue-teal-gradient {
-      background: #ffca00;
-      background: linear-gradient(to top, rgba(255, 255, 255, 0) 0, #ffca00 100%);
-    }
+  .bg-blue-teal-gradient {
+    background: #ffca00;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0, #ffca00 100%);
+  }
 </style>
-
 
 <section class="bg-rcu-yellow">
   <div class="container mx-auto px-6 text-center py-20">
     <h2 class="mb-6 text-4xl font-bold text-center text-white tracking-wider">
-     {$_('cta.title')}
+      {$_('cta.title')}
     </h2>
-    <h3 class="my-4 text-2xl text-white">
-      {$_('cta.sub')}
-    </h3>
-    <button class="bg-white font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider">
-   {$_('banner.get')}
+    <h3 class="my-4 text-2xl text-white">{$_('cta.sub')}</h3>
+    <button
+      class="bg-white font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase
+      tracking-wider">
+      {$_('banner.get')}
     </button>
   </div>
 </section>
