@@ -1,5 +1,5 @@
 <script>
-    import { _, locale, locales } from 'svelte-i18n'
+    // import { _, locale, locales } from 'svelte-i18n'
 </script>
 
 
@@ -12,9 +12,9 @@
             <div class="w-full md:w-3/6">
 
                 <div class="text-green-100 mb-3 md:mb-0 pr-0 md:pr-10">
-                    <span class="text-xl text-green-100">{$_('title.text')}</span>
+                    <span class="text-xl text-green-100">Relief Care Uganda</span>
                     <p class="text-sm mt-2">
-                        {$_('footer.sub')}
+                        A society where vulnerable communities live to their full potential and we strive for a transformed society where equal rights and opportunities are advanced to vulnerable communities as our mission
                     </p>
 
                 </div>

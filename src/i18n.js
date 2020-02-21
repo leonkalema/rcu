@@ -1,9 +1,9 @@
-import { register, init, getLocaleFromNavigator } from 'svelte-i18n'
+// import { register, init, getLocaleFromNavigator } from 'svelte-i18n'
 
-register('en', () => import('../messages/en.json'))
-register('sv', () => import('../messages/sv.json'))
+// register('en', () => import('../messages/en.json'))
+// register('sv', () => import('../messages/sv.json'))
 
-init({
-  fallbackLocale: 'sv',
-  initialLocale: getLocaleFromNavigator(),
-})
+// init({
+//   fallbackLocale: 'sv',
+//   initialLocale: getLocaleFromNavigator(),
+// })

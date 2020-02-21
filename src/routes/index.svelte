@@ -6,7 +6,7 @@ import Fact from '../components/Fact.svelte';
 import Byline from '../components/Byline.svelte';
 import Projects from '../components/Projects.svelte';
 
-import { _ } from 'svelte-i18n'
+// import { _ } from 'svelte-i18n'
 </script>
 
 <style>
@@ -14,7 +14,7 @@ import { _ } from 'svelte-i18n'
 </style>
 
 <svelte:head>
-	<title>{$_('title.text')}</title>
+	<title>Relief Care Uganda</title>
 </svelte:head>
 
 <Hero />

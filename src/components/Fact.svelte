@@ -1,5 +1,5 @@
 <script>
-  import { _ } from 'svelte-i18n'
+  // import { _ } from 'svelte-i18n'
 </script>
 
 <style>
@@ -95,12 +95,12 @@
 <section class="section--feature bg-cover bg-center py-20">
            <div class="container mx-auto px-4 flex h-full items-center">
                <div class="w-full md:w-2/3 lg:w-1/2 h-full bg-white-transparent md:p-16 p-4 rounded-lg text-center">
-                   <h2 class="font-serif text-3xl text-black mb-8">{$_('fact.title')}</h2>
+                   <h2 class="font-serif text-3xl text-black mb-8">What we do</h2>
                    <p class="font-sans text-md mb-8 leading-relaxed">
-                   {$_('fact.sub')}
+                   Relief Care Uganda has continued collaborating with other organizations, CSOs and government entities as it executes its community activities. Under the Relief Care Uganda-Education Project (RCU-EP) and by close of year 2016, we registered 53 orphaned and vulnerable children of which 30 are double orphaned and in Pre primary school, 20 are single orphaned and are in primary level and 3 have parents but very poor to support the children, these are also on secondary level
                    </p>
                    <button class="bg-white font-bold rounded-full mt-6 py-4 px-8 shadow-lg uppercase tracking-wider">
-                  {$_('fact.button')}
+                  About US
                    </button>
                </div>
            </div>

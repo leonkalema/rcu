@@ -1,9 +1,9 @@
 <script context="module">
-  import { isLoading, waitLocale } from 'svelte-i18n'
+  // import { isLoading, waitLocale } from 'svelte-i18n'
 
-  export async function preload() {
-    return waitLocale()
-  }
+  // export async function preload() {
+  //   return waitLocale()
+  // }
 </script>
 
 <script>
@@ -16,10 +16,6 @@
 <style>
 
 </style>
-
-{#if $isLoading}
-  <div class="loading">Loading...</div>
-{/if}
 
 <Nav {segment} class="flex-wrap"/>
 
