@@ -1,1 +1,6 @@
-{storage: "larry", employed: false, lastName: "Liam "}
+
+{
+  "storage": "typicode",
+  "employed": false, 
+  "lastName": "Liam"
+}
